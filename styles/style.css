@@ -1,0 +1,131 @@
+.question-text {
+    font-family: Lobster;
+    color: rgb(206, 17, 48);
+    font-size: 35px;
+}
+
+body {
+    background-image: url('/images/valentines-day-desktop-background-hearts.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This centers the content vertically */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
+}
+
+.valentines {
+    text-align: center;
+}
+
+.yes {
+    background: hsl(340deg, 100%, 32%);
+    margin-right: 60px;
+    margin-left: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.yes-front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background-color: rgb(240, 30, 82);
+    color: white;
+    font-weight: bold;
+    transform: translateY(-6px);
+}
+
+.yes:active .yes-front {
+    transform: translateY(-2px);
+}
+
+.no {
+    background: hsl(340deg, 100%, 32%);
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.no-front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background-color: rgb(240, 30, 82);
+    color: white;
+    font-weight: bold;
+    transform: translateY(-6px);
+}
+
+.no:active .no-front {
+    transform: translateY(-2px);
+}
+
+.no-page-div {
+    text-align: center;
+}
+
+.no-page-text {
+    font-size: 35px;
+    font-family: "Protest Riot", sans-serif;
+    color: rgb(206, 17, 48);
+}
+
+.no-page-button {
+    background: hsl(340deg, 100%, 32%);
+    margin-right: 60px;
+    margin-left: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.no-page-button-front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background-color: rgb(240, 30, 82);
+    color: white;
+    font-weight: bold;
+    transform: translateY(-6px);
+}
+
+.no-page-button:active .no-page-button-front {
+    transform: translateY(-2px)
+}
+
+.no-page-button-2 {
+    background: hsl(340deg, 100%, 32%);
+    margin-right: 60px;
+    margin-left: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.no-page-button-2-front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background-color: rgb(240, 30, 82);
+    color: white;
+    font-weight: bold;
+    transform: translateY(-6px);
+}
+
+.no-page-button-2:active .no-page-button-2-front {
+    transform: translateY(-2px)
+}
