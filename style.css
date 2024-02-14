@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('/images/valentines-day-desktop-background-hearts.png');
+    background-image: url('valentines-day-desktop-background-hearts.png');
     background-size: cover;
     display: flex;
     justify-content: center;
